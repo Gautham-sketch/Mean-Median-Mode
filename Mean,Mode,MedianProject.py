@@ -9,7 +9,7 @@ list_data.pop(0)
 
 whole_data = []
 for i in range(len(list_data)):
-    full_list = list_data[i][3]
+    full_list = list_data[i][2]
     list_data.append(float(full_list))
 
 #Calculating the mean
